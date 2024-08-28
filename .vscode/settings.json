@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/345efff5-d6c8-4a91-90eb-abd51213a437/resourceGroups/kauai-media-showcase-rg/providers/Microsoft.Web/sites/kauai-media-showcase",
+    "appService.deploySubpath": "."
+}

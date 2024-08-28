@@ -12,11 +12,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
 }
+
 
 .tropical-gradient {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
